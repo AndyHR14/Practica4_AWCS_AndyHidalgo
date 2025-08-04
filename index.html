@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Práctica#4 API's</title>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section>
+        <h1>English Dictionary</h1>
+        <form id="formulario" action="./app/controllers/wordController.php" method="POST">
+            <ul> 
+            <li> 
+                <input type="text" id="EnWord" name="EnWord" placeholder="Search any word!">
+            </li>
+            <li class="botones">
+                <button type="button" id="SearchWord">Search Word</button>
+            </li>
+            <li class="botones">
+                <button type="submit">Save Word</button>
+            </li>
+            <li>
+                <div id="Word"></div>
+            </li>
+            </ul>
+        </form>
+    </section>
+</html>
